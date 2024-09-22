@@ -6,7 +6,6 @@ import java.util.List;
 
 public interface UsuarioServiceInterfaces {
 
-
     //Listar Usuario
     public List<Usuario> listar();
 
