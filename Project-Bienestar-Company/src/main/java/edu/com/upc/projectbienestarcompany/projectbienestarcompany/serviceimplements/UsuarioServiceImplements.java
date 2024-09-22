@@ -8,8 +8,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 @Service
-public class
-{
+public class  UsuarioServiceImplements implements UsuarioServiceInterfaces {
     @Autowired
     private UsuarioRepository usuarioRepository;
 
@@ -37,3 +36,4 @@ public class
         usuarioRepository.deleteById(id);
     }
 }
+
