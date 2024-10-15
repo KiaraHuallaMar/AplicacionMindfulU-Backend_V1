@@ -16,4 +16,6 @@ public interface CitaInterface {
 
     //modificar
     public void modificar(Cita cita);
+
+    public List<String[]> totalRecaudado();
 }
