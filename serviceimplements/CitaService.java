@@ -41,4 +41,10 @@ public class CitaService implements CitaInterface {
     public void modificar(Cita cita) {
         cR.save(cita);
     }
+
+     //Recaudo Total Cita
+    @Override
+    public List<String[]> totalRecaudado() {
+        return cR.totalRecaudado();
+    }
 }
